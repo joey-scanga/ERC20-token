@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "tokenA",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "tokenB",
+						"type": "address"
+					}
+				],
+				"name": "createPair",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "pair",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"molecat/moleCat - Copy/IUniswapV2Factory.sol": "IUniswapV2Factory"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"molecat/moleCat - Copy/IUniswapV2Factory.sol": {
+			"keccak256": "0x463575700f3e80f91e3b674902923bea010c6e7a815ba51bb29cb6b98842f51f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ff53e52a18288a3dcf72e87896cde3cf0ddc2d5f6c9f9de7f4bead0bbae107da",
+				"dweb:/ipfs/QmeExUCbe3MLKvXypEAVCkTAN2NXRfzLARbCL5hzrn3AJ6"
+			]
+		}
+	},
+	"version": 1
+}
